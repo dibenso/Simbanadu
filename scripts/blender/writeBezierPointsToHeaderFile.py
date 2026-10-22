@@ -35,7 +35,7 @@ import bpy
 
 
 def write_bezier_points_to_file(
-    filename="/Users/dibenso/source/repos/simbanadu/src/tracks/track3.h",
+    filename="<path to project>/src/tracks/<name of new track header file>.h",
 ):
     vertices = bpy.context.object.data.vertices
     header_filename = filename.split("/")[-1]
